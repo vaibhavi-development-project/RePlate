@@ -1,6 +1,9 @@
-@import "tailwindcss" source(none);
-@source "../src";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:wght@400;600;700&display=swap');
+
+@import "tailwindcss";
 @import "tw-animate-css";
+
+@source "../src";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -160,9 +163,11 @@
   .font-display {
     font-family: var(--font-serif);
   }
+
   .hide-scrollbar::-webkit-scrollbar {
     display: none;
   }
+
   .hide-scrollbar {
     scrollbar-width: none;
   }
